@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment Tailwind</title>
 <!-- google font -->
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 <!-- fontawesome cdn -->
 <script src="https://kit.fontawesome.com/bbfc4be646.js" crossorigin="anonymous"></script>
     <!-- tailwind cdn -->
@@ -24,10 +26,37 @@
 </head>
 <body>
     <!-- header section -->
-    <header>
+    <header class=" sm:mx-10 lg:mx-36">
+        <!-- nav -->
+<nav class="mt-5 flex justify-between">
+    <div class="flex">
+        <h1 class="text-3xl font-bold"> <i class="fa-solid fa-arrow-right -rotate-45   bg-green-600 rounded-full p-1  text-blck"></i> Rinterio</h1>
+    </div>
+    <ul class="flex gap-8">
+        <li> <a class=" text-gray-700 font-bold" href="">Home</a></li>
+        <li> <a class="text-gray-500" href="">Services</a></li>
+        <li> <a class="text-gray-500" href="">Portfolio</a></li>
+        <li> <a class="text-gray-500" href="">Blogs</a></li>
+        <li> <a class="text-gray-500" href="">Contact Us</a></li>
 
+    </ul>
+    <div class="  gap-3 flex">
+        <button class="bg-white p-1"><i class="fa-solid fa-magnifying-glass"></i>
+        </button><br>
+    <button class="bg-white p-1"><i class="fa-solid fa-cart-shopping"></i></button><br>
+    <button class=" bg-green-300 border border-green-400 px-5 py-2 rounded-3xl text-black font-bold ">Book Consult <i class="fa-solid fa-arrow-right -rotate-45   bg-black rounded-full p-1 text-white"></i></button>
+    </div>
+    
+</nav>
+<!-- banner part -->
+<div class="mx-auto my-4 justify-center items-center">
+    <img class="h-3/4 w-5/4 lg:px-80 first-letter:" src="assets/banner.png" alt="">
+    <h1 class="text-5xl font-bold py-5 lg:px-60">A barn house of this design has a striking appearance</h1>
+    <p class="text-gray-500 pb-5 lg:px-60">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal  accents, and large windows that flood the space with natural light.</p>
+    <button class=" bg-green-300 border border-green-400 px-5 py-2 rounded-3xl text-black font-bold sm:w-full lg:px-96">View Details <i class="fa-solid fa-arrow-right -rotate-45  bg-green-600 rounded-full p-1"></i></button>
+</div>
     </header>
-<!-- main section -->
+
     <main>
 
     </main>
